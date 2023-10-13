@@ -1,7 +1,50 @@
 package br.com.brunobocardi.Toodolist.users;
 
-private class UserModel {
-  private  String username;
+public class UserModel {
+
+
+
+
+private  String username;
     private String name;
-     private  String password;
+    private  String password;
+
+
+/**
+ * Usar o modificador private 
+ * Inserir o valor => set 
+ */
+    public void setUsername(String username) {
+    this.username = username;
+    }
+
+    /**
+     * 
+     *  Buscar o valor => Get
+     */
+    public String getUsername() {
+    return username;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+
+
+
+
+
 }
